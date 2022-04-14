@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title> فرم ثبت نام </title>
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/site.css">
+
+</head>
+
+<body class="bg-body-form">
+    <div class="d-block d-xl-flex row">
+        <div class="col-xl-6 order-1 align-items-center" id="divstudentimage">
+            <img src="css/pictures/blogging.png" alt="student image" id="studentformimage">
+        </div>
+        <div class="col-12 col-xl-6" id="divform">
+            <form name="myform" id="sign-in-form" action="toplearn.com" method="post">
+                <div class="row  formsign name">
+                    <label for="fname" class="col-12 text-center col-sm-4 onvan">نام</label>
+                    <input type="text" id="fname" name="fname" class="inputform col-sm-8" placeholder="مثال : سام" autofocus>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="row formsign family">
+                    <label for="lname" class="col-4 onvan">نام خانوادگی </label>
+                    <input type="text" id="lname" class="inputform col-8" name="lname" value="">
+                </div>
+                <div class="row formsign phone">
+                    <label for="phone" class="col-4 onvan">شماره همراه</label>
+                    <input type="number" id="phone" class="inputform col-8" name="phone" value="" maxlength=11>
+                </div>
+                <div class="row formsign paye">
+                    <label for="paye" class="col-4 onvan">پایه تحصیلی </label>
+                    <input type="text" id="paye" class="inputform col-8" name="paye" value="">
+                </div>
+                <div class="row formsign reshte">
+                    <label for="reshte" class="col-4 onvan">رشته تحصیلی </label>
+                    <input type="text" id="reshte" class="inputform col-8" name="reshte" value="">
+                </div>
+                <div class="row formsign moaddel">
+                    <label for="moaddel" class="col-4 onvan">معدل (اختیاری) </label>
+                    <input type="number" id="moaddel" class="inputform col-8" name="paye" value="">
+                </div>
+                <div class="row formsign password">
+                    <label for="password" class="col-4 onvan">رمز</label>
+                    <input type="password" id="password" class="inputform col-8" name="password">
+                    <p class="d-none wrong" id="p-password">پسورد شما باید شامل حداقل ۸ کاراکتر باشد</p>
+                </div>
+
+                <div class="row formsign password2">
+                    <label for="password2" class="col-4 onvan">تایید رمز</label>
+                    <input type="password" id="password2" class="inputform col-8" name="password2">
+                    <p class="d-none wrong" id="p-password2">دقت کن رفیق!</p>
+                </div>
+
+                <div class="row formsign makan">
+                    <label for="selectformvorood" class="col-4 onvan">محل سکونت</label>
+                    <input class=" inputform col-8" list="datalistOptions" id="makan" placeholder="بابل" tabIndex="9">
+                    <datalist id="datalistOptions">
+                        <option value="مرکزی ">
+                        <option value="اردبیا">
+                        <option value="آدربایجان غربی">
+                        <option value="Los Angeles">
+                        <option value="Chicago">
+                    </datalist>
+                    <!-- <select id="selectformvorood" class="inputform">
+            <option value="tehran">tehran</option>
+            <option value="babol">babol</option>
+            <option value="sari">sari</option><
+            <option value="mashhad">mashad</option>
+        </select> -->
+                </div>
+                <div class="formsign submit">
+                    <button name="buttonform" type="submit" id="button1" tabIndex="10">ارسال اطلاعات</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <script src="js/start.js"></script>
+</body>
+
+</html>

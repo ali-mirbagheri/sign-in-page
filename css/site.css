@@ -1,0 +1,244 @@
+        @font-face {
+            font-family: "ordibehesht";
+            src: url("fonts/Ordibehesht.ttf");
+        }
+        
+        @font-face {
+            font-family: "dimona";
+            src: url("fonts/Far_Dimona.ttf");
+        }
+        /* width */
+        
+         ::-webkit-scrollbar {
+            width: 10px;
+        }
+        /* Track */
+        
+         ::-webkit-scrollbar-track {
+            background: rgba(193, 201, 6, 1);
+        }
+        /* Handle */
+        
+         ::-webkit-scrollbar-thumb {
+            background: rgb(160, 165, 3);
+        }
+        /* Handle on hover */
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background: rgb(246, 255, 0);
+        }
+        
+        body {
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+            /* font-size: 16px; */
+        }
+        
+        .bg-body-form {
+            background: linear-gradient(90deg, rgba(205, 175, 22, 1) 0%, rgba(254, 214, 9, 1) 35%, rgba(193, 201, 6, 1) 100%);
+        }
+        
+        #sign-in-form {
+            color: #383535;
+            padding: 2rem;
+            margin: 2rem auto;
+        }
+        
+        #submit {
+            color: #c6ced3;
+            border-radius: 30px;
+        }
+        
+        .inputform {
+            border-radius: 8px;
+            background-color: #05e449;
+            text-align: center;
+            border-width: 1px;
+            border-color: #1bef3f;
+            box-shadow: #f1c40f;
+            /* width: 62%; */
+            height: 30px;
+            cursor: pointer;
+        }
+        
+         ::placeholder {
+            color: #F0F8FFFF;
+        }
+        
+         :-moz-placeholder {
+            color: #F0F8FFFF;
+        }
+        
+         ::-webkit-input-placeholder {
+            color: #f0f8ff;
+        }
+        
+        #button1 {
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+            border: #f1c40f;
+            color: #484848;
+            border-width: 20px;
+            background-color: aliceblue;
+            font-family: "ordibehesht";
+            margin: 0 auto;
+            cursor: pointer;
+        }
+        
+        div {
+            padding: 17px;
+            margin: 0 auto;
+        }
+        /* input {
+    display: inline;
+} */
+        
+        .inputform:hover {
+            background-color: aliceblue;
+            border-color: #f1c40f;
+        }
+        
+        #div {
+            width: 100%;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        #button1:hover {
+            background-color: #2da62d;
+            color: antiquewhite;
+        }
+        
+        #buttonlog:hover {
+            background-color: #2da62d;
+            color: antiquewhite;
+        }
+        
+        #divform {
+            /* width: 50%; */
+            margin: auto;
+            text-align: center;
+        }
+        
+        #divstudentimage {
+            width: 50%;
+            margin-top: 6rem;
+            text-align: center;
+        }
+        
+        #studentformimage {
+            width: 80%;
+        }
+        
+        #divform1 {
+            width: 75%;
+        }
+        
+        #emtehani {
+            text-align: center;
+        }
+        
+        .formsign {
+            width: 75%;
+            margin: auto;
+        }
+        
+        .onvan {
+            font-family: "dimona";
+            text-align: right;
+            cursor: pointer;
+            /* font-size: 1.2rem; */
+        }
+        
+        #selectformvorood {
+            /* display: inline; */
+            margin-right: 7px;
+            cursor: pointer;
+        }
+        
+        .inputform:focus {
+            background-color: aliceblue;
+            border-color: #f1c40f;
+            border-width: 0;
+        }
+        
+        .formlog {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        #divstudentimage2 {
+            width: 20%;
+            height: 20%;
+            margin: 0 auto;
+        }
+        
+        #studentimage2 {
+            width: 100%;
+            height: 100%;
+            text-align: left;
+        }
+        
+        #divlogincolli {
+            margin-top: 5rem;
+        }
+        
+        #buttonlog {
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+            border: #f1c40f;
+            color: #484848;
+            border-width: 20px;
+            background-color: aliceblue;
+            font-family: "ordibehesht";
+            margin: 0 auto;
+        }
+        
+        #divbuttonlog {
+            width: 60%;
+            text-align: center;
+        }
+        
+        .onvanlog {
+            text-align: center;
+            width: 160px;
+            display: inline-block;
+            font-family: "dimona";
+            font-size: 30px;
+            padding: 20px;
+        }
+        
+        #loginform {
+            color: #484848;
+        }
+        
+        p {
+            margin-bottom: 0;
+        }
+        
+        .wrong {
+            color: #ff0000 !important;
+            text-align: end !important;
+            padding-top: 10px !important;
+            font-size: 0.8rem !important;
+        }
+        /* @media (max-width: 800 px) {} */
+        
+        .nav-back {
+            background: linear-gradient(175deg, rgba(0, 9, 24, 1) 0%, rgba(0, 18, 47, 1) 100%);
+        }
+        
+        .font-ordibehesht {
+            font-family: "ordibehesht";
+        }
+        
+        .bg-azmoon {
+            background: rgb(16, 25, 40);
+        }
+        
+        .title-color {
+            background: #35876c
+        }
